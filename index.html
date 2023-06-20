@@ -62,13 +62,27 @@
         <section>
             <h2>Simulation Methods</h2>
             <h3><u>Monte Carlo Integration</u></h3>
-            <p>In this short project, I investigate the Monte Carlo integration method for approximating the area under a curve. 
-                I compare the results with the exact value of the integrals and show that after a certain threshold, increasing the number of simulations is no longer the
-                optimal way to improve accuracy.</p>
+            <p>In this short project, I investigate the Monte Carlo integration, a statistical method used for approximating the numerical value of definite integrals. 
+                The research, conducted using Jupyter Notebooks, focuses on examining how variations in the number of simulations and the choice of the upper bound affect the accuracy of the computed
+                integral value. It was observed that beyond approximately 200,000 simulations, the incremental improvement in accuracy begins to taper off.
+            The observations from this research provide insights that could guide the design and implementation of Monte Carlo integration in real-world scenarios,
+                helping to optimize computational resources while maintaining desired accuracy levels.</p>
             <p><a href="Monte Carlo Integration/Monte Carlo Integration.html" target="_blank">See the project</a></p>
             <div>
                 <img src="Monte Carlo Integration/Function3.png" alt="Function 3 Graph">
                 <img src="Monte Carlo Integration/Convergence3.png" alt="Convergence 3 Graph">
+            </div>
+            <h3><u>Numerical Approximation of Differential Equations</u></h3>
+            <p>This study focuses on the numerical approximation of a model differential equation subjected to given boundary conditions using a finite difference method. A model problem - 
+             a second-order ordinary differential equation with variable coefficients - is discretized by replacing each derivative term with finite differences,
+                transforming the problem into a set of linear equations. These equations are represented in a matrix format and are solved using matrix inversion. The approximated results are then compared
+                with an exact solution for a specific differential equation to investigate the accuracy of the numerical method. 
+                The analysis shows that the accuracy of the approximation improves significantly as the number of interior mesh points (n) increases, 
+                confirming the convergence of the numerical method to the exact solution. This method provides an effective and accurate way to solve differential equations when the analytical solution is not readily available. </p>
+            <p><a href="Numerical Approximation of DE/Numerical Approximation of Differential Equations.html" target="_blank">See the project</a></p>
+            <div>
+                <img src="Numerical Approximation of DE/Convergence_Solution1.png" alt="Convergence Small Interval">
+                <img src="Numerical Approximation of DE/Convergence_Solution2.png" alt="Convergence Large Interval">
             </div>
         </section>
         <section>
